@@ -140,7 +140,7 @@ const App = () => {
           />
         </div>
         {winCondition && <WinMessageComp moveCount={moveCount} />}
-        Movimientos: {moveCount}
+       <span className="fs-5"> Movimientos: {moveCount}</span>
       </div>
     </>
   );

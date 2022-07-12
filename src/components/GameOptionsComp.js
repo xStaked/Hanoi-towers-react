@@ -7,7 +7,7 @@ const GameOptionsComp = ({ disks, setDisks, reset, solve, moveCount }) => {
     
     <Row className="btn-menu">
       <Col>
-        <span>Discos: {disks}  </span>
+        <span className="fs-3 fw-bold">Discos: {disks}  </span>
         <Button
           className="mx-3"
           variant="outline-secondary"
@@ -30,13 +30,14 @@ const GameOptionsComp = ({ disks, setDisks, reset, solve, moveCount }) => {
       </Col>
       <Col>
         <Button
-          className="mx-3"
+          className="mx-3 fw-bold"
           variant="outline-secondary" 
           onClick={() => reset()}
           >
           Reiniciar
         </Button>
         <Button 
+          className="fw-bold"
           variant="outline-secondary" 
           onClick={() => solve()}
           >

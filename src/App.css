@@ -1,6 +1,6 @@
 body{
-  background: rgba(34, 255, 244, 0.466);
-  color:rgb(149, 4, 185);
+  background: #ffffff77;
+  /* color:rgb(149, 4, 185); */
 }
 
 .text-title {
@@ -13,7 +13,7 @@ body{
 
 .content {
   margin-top: 30px;
-  border: 1px solid grey;
+  border: 4px solid #0066eb;
   display: inline-flex;
   font-family: sans-serif;
   justify-content: space-evenly;
@@ -30,18 +30,19 @@ body{
 }
 
 .center-bar {
-  background-color: #f1034b;
+  background-color: #0066eb;
   width: 4%;
   height: 100%;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   position: absolute;
   left: 48%;
   z-index: -1;
 }
 
 .tile {
-  background-color: #7c0067;
-  border: 1px solid black;
+  background-color: #131012;
+  border: 2px solid black;
+  border-color: white;
   border-radius: 4px;
   height: 40px;
   margin: auto;
@@ -49,7 +50,7 @@ body{
 }
 
 .win-message {
-  background-color: #3f3dab;
+  background-color: #0066eb;
   border-radius: 10px;
   color: #fff;
   font-size: 42px;
